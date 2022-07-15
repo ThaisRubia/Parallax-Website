@@ -1,3 +1,33 @@
+
 #imgOne {
     height: 50%;
+}
+
+.one {
+    color: #666666;
+    font: 27px Lato, sans-serif;
+    margin: 19.92px 0px;
+}
+.container {
+    text-align:center ;
+}
+.oneParagraf {
+    color: #666666;
+    font: 16px Lato, sans-serif;
+    margin: 16px 0px;
+}
+.sectiontwo {
+    color: #DDDDDD;
+    font: 16px Lato, sans-serif;
+    background: #282E34;
+}
+.two {
+    text-align: center;
+    color: #DDDDDD;
+    font: 24px Lato, sans-serif;
+    margin: 19.92px 0px;
+}
+.twoparagraf {
+    font: 16px Lato, sans-serif;
+    margin: 16px 0px;
 }
