@@ -20,6 +20,7 @@
     color: #DDDDDD;
     font: 16px Lato, sans-serif;
     background: #282E34;
+    padding: 50px 80px;
 }
 .two {
     text-align: center;
@@ -28,6 +29,23 @@
     margin: 19.92px 0px;
 }
 .twoparagraf {
+    font: 16px Lato, sans-serif;
+    margin: 16px 0px;
+}
+.sectionThree {
+    text-align: center;
+    color: #DDDDDD;
+    background: #282E34;
+    font: 16px Lato,sans-serif;
+    padding: 50px 80px;
+}
+.three {
+    color: #DDDDDD;
+    font: 24px Lato, sans-serif;
+    margin: 19.92px 0px;
+}
+.threeparagraf {
+    color: #DDDDDD;
     font: 16px Lato, sans-serif;
     margin: 16px 0px;
 }
