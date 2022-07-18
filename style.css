@@ -1,8 +1,22 @@
 
-#imgOne {
-    height: 50%;
+.conteiner-flex {
+    min-height: 100%; /* tamanho do container */
+    margin: auto;
+    position: relative;
 }
-.tituloone {
+.conteiner-flex img {
+    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
+    
+}
+
+.tituloOne {
+    position: absolute; /* determina a posição do texto h1 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: #FFFFFF;
     font: 27px Lato, sans-serif;
     background: #111111;
@@ -13,7 +27,7 @@
     font: 27px Lato, sans-serif;
     margin: 19.92px 0px;
 }
-.container {
+.conteiner {
     text-align:center ;
 }
 .oneParagraf {
