@@ -2,7 +2,12 @@
 #imgOne {
     height: 50%;
 }
-
+.tituloone {
+    color: #FFFFFF;
+    font: 27px Lato, sans-serif;
+    background: #111111;
+    padding: 20px;
+}
 .one {
     color: #666666;
     font: 27px Lato, sans-serif;
