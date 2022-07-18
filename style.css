@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 .conteiner-flex {
     min-height: 100%; /* tamanho do container */
@@ -22,49 +26,132 @@
     background: #111111;
     padding: 20px;
 }
-.one {
-    color: #666666;
-    font: 27px Lato, sans-serif;
-    margin: 19.92px 0px;
+.conteiner-section-one {
+    background: #F4F4F4;
+    text-align: center;
+    font: 16px Lato, sans-serif;
+    padding: 50px 80px;
 }
-.conteiner {
-    text-align:center ;
+.sectionOne { /* h2 */
+    color: #666666;
+    font: 24px Lato, sans-serif;
+    padding: 19.92px 0px;
+    
 }
 .oneParagraf {
     color: #666666;
     font: 16px Lato, sans-serif;
     margin: 16px 0px;
+    
 }
-.sectiontwo {
-    color: #DDDDDD;
-    font: 16px Lato, sans-serif;
-    background: #282E34;
-    padding: 50px 80px;
+.conteiner-two-flex {
+    min-height: 100%; /* tamanho do container */
+    margin: auto;
+    position: relative;
 }
-.two {
+.conteiner-two-flex img {
+    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
+    
+}
+.titulo-two {
+    position: absolute; /* determina a posição do texto h1 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    color: #DDDDDD;
-    font: 24px Lato, sans-serif;
-    margin: 19.92px 0px;
+    color: #FFFFFF;
+    font: 27px Lato, sans-serif;
+    padding: 20px;
+    
 }
+.conteiner-section-two {
+    margin: auto;
+    text-align: center;
+    font: 16px Lato, sans-serif;
+    padding: 50px 80px;
+    color: #DDDDDD;
+    background: #282e34;
+    
+}
+
 .twoparagraf {
     font: 16px Lato, sans-serif;
     margin: 16px 0px;
+    
 }
-.sectionThree {
+.container-flex-three {
+    min-height: 100%; /* tamanho do container */
+    margin: auto;
+    position: relative;
+}
+.container-flex-three img {
+    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
+}
+.three {
+    position: absolute; /* determina a posição do texto h1 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
+    color: #FFFFFF;
+    font: 27px Lato, sans-serif;
+    padding: 20px;
+}
+.conteiner-section-three {
     color: #DDDDDD;
-    background: #282E34;
-    font: 16px Lato,sans-serif;
+    background: #282e34;
+    text-align: center;
+    font: 16px Lato, sans-serif;
     padding: 50px 80px;
 }
 .three {
-    color: #DDDDDD;
+    position: absolute; /* determina a posição do texto h1 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    font: 27px Lato, sans-serif;
+    padding: 20px;
+}
+.section-titulo-three {
     font: 24px Lato, sans-serif;
     margin: 19.92px 0px;
+    color: #DDDDDD;
+
 }
-.threeparagraf {
+.three-paragraf {
     color: #DDDDDD;
     font: 16px Lato, sans-serif;
     margin: 16px 0px;
 }
+.conteiner-last {
+    min-height: 100%; /* tamanho do container */
+    margin: auto;
+    position: relative;
+}
+.conteiner-last img {
+    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
+    
+}.last-titulo {
+    position: absolute; /* determina a posição do texto h1 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: 27px Lato, sans-serif;
+    padding: 20px;
+    font: 24px Lato, sans-serif;
+    margin: 19.92px 0px;
+    color: #DDDDDD;
+    background: #111111;
+}
+
