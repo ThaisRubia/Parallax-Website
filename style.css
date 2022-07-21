@@ -4,16 +4,17 @@
     margin-top: 0;
 }
 
-
 main {
     display: block;
+
 }
 
 section.module.parallax { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh !important;
+    flex-direction: column; 
+    justify-content: center; /*Precisa desses dois itens para centralizar na página*/
+    align-items: center; /*Precisa desses dois itens para centralizar na página*/
+    height: 100vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -24,94 +25,78 @@ section.module.parallax {
     -webkit-backdrop: cover;
     -moz-background-size:cover ;
     -o-background-size:cover;
+
 }
-.tituloOne{ 
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.tituloOne {
     color: #FFFFFF;
     font: 27px Lato, sans-serif;
     background: #111111;
     padding: 20px;
     
 }
-section.module.conteiner {
-    padding: 50px 80px;
-    margin: 16px 0px;
-}
-.titulotwo { 
+.titulo {
     text-align: center;
     color: #666666;
     font: 24px Lato, sans-serif;
-    padding: 19.92px 0px;
+    margin: 19.92px 0px;
+
+}
+.oneParagraf {
+    padding: 10px 10px;
+}
+section.module.conteiner {
+    padding: 50px 80px;
+    font: 16px Lato,sans-serif;
+    color: #666666;
+    padding: 50px 80px;
+    
+}
+section.module.conteinerOne {
+    padding: 50px 80px;
+    font: 16px Lato,sans-serif;
+    color: #FFFFFF;
+    padding: 50px 80px;
+    background: #282E34;
     
 }
 .oneParagraf {
-    color: #666666;
-    font: 16px Lato, sans-serif;
-    margin: 16px 0px;
-    background: #F4F4F4;
+    padding: 15px;
+}
+.titulotwo {
     text-align: center;
-    
+    color: #FFFFFF;
+    font: 24px Lato, sans-serif;
+    margin: 19.92px 0px;
     
 }
+
+section.module.conteiner.two { /*3*/
+    text-align: center;
+    margin: 16px 0px;
+    background:#282E34;
+    padding: 50px 80px;
+    margin: 0;
+}
+
+
 section.module.parallax-1 {
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
     width: 100%;
 }
 
-section.module.paralax { /*1*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh !important;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-backdrop: cover;
-    -moz-background-size:cover ;
-    -o-background-size:cover;
-}
-.titulo-image { /*2*/
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font: 27px Lato, sans-serif;
-    background: #111111;
-    padding: 20px;
-}
-section.module.conteiner.two { /*3*/
-    padding: 50px 80px;
-    margin: 16px 0px;
-}
-.two { /*4*/
-    text-align: center;
-    color: #666666;
-    font: 24px Lato, sans-serif;
-    padding: 19.92px 0px;
-}
-.twoparagraf { /*5*/
-    color: #666666;
-    font: 16px Lato, sans-serif;
-    margin: 16px 0px;
-    background: #F4F4F4;
-    text-align: center;
-}
-section.module.paralax-2 { 
+section.module.parallax-2 { 
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
     width: 100%;
 }
 
+
+section.module.parallax-3 { 
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    width: 100%;
+}
+
+section.module.parallax-4 { 
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    width: 100%;
+    width: 100%;
+}
