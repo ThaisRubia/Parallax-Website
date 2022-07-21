@@ -1,38 +1,50 @@
 * {
     padding: 0;
     margin: 0;
+    margin-top: 0;
 }
 
-.conteiner-flex {
-    min-height: 100%; /* tamanho do container */
-    margin: auto;
+
+main {
+    display: block;
+}
+
+section.module.parallax { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
     position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-backdrop: cover;
+    -moz-background-size:cover ;
+    -o-background-size:cover;
 }
-.conteiner-flex img {
-    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
-    
-}
-
-.tituloOne {
-    position: absolute; /* determina a posição do texto h1 */
+.tituloOne{ 
+    position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
     color: #FFFFFF;
     font: 27px Lato, sans-serif;
     background: #111111;
     padding: 20px;
+    
 }
-.conteiner-section-one {
-    background: #F4F4F4;
-    text-align: center;
-    font: 16px Lato, sans-serif;
+section.module.conteiner {
     padding: 50px 80px;
+    margin: 16px 0px;
 }
-.sectionOne { /* h2 */
+.titulotwo { 
+    text-align: center;
     color: #666666;
     font: 24px Lato, sans-serif;
     padding: 19.92px 0px;
@@ -42,116 +54,64 @@
     color: #666666;
     font: 16px Lato, sans-serif;
     margin: 16px 0px;
-    
-}
-.conteiner-two-flex {
-    min-height: 100%; /* tamanho do container */
-    margin: auto;
-    position: relative;
-}
-.conteiner-two-flex img {
-    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
-    
-}
-.titulo-two {
-    position: absolute; /* determina a posição do texto h1 */
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    background: #F4F4F4;
     text-align: center;
-    color: #FFFFFF;
-    font: 27px Lato, sans-serif;
-    padding: 20px;
+    
     
 }
-.conteiner-section-two {
-    margin: auto;
-    text-align: center;
-    font: 16px Lato, sans-serif;
-    padding: 50px 80px;
-    color: #DDDDDD;
-    background: #282e34;
-    
+section.module.parallax-1 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    width: 100%;
 }
 
-.twoparagraf {
-    font: 16px Lato, sans-serif;
-    margin: 16px 0px;
-    
-}
-.container-flex-three {
-    min-height: 100%; /* tamanho do container */
-    margin: auto;
+section.module.paralax { /*1*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
     position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-backdrop: cover;
+    -moz-background-size:cover ;
+    -o-background-size:cover;
 }
-.container-flex-three img {
-    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
-}
-.three {
-    position: absolute; /* determina a posição do texto h1 */
+.titulo-image { /*2*/
+    position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
     color: #FFFFFF;
     font: 27px Lato, sans-serif;
-    padding: 20px;
-}
-.conteiner-section-three {
-    color: #DDDDDD;
-    background: #282e34;
-    text-align: center;
-    font: 16px Lato, sans-serif;
-    padding: 50px 80px;
-}
-.three {
-    position: absolute; /* determina a posição do texto h1 */
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #FFFFFF;
-    font: 27px Lato, sans-serif;
-    padding: 20px;
-}
-.section-titulo-three {
-    font: 24px Lato, sans-serif;
-    margin: 19.92px 0px;
-    color: #DDDDDD;
-
-}
-.three-paragraf {
-    color: #DDDDDD;
-    font: 16px Lato, sans-serif;
-    margin: 16px 0px;
-}
-.conteiner-last {
-    min-height: 100%; /* tamanho do container */
-    margin: auto;
-    position: relative;
-}
-.conteiner-last img {
-    width: 100%; /* tamanho da foto que segue o tamanho do conteiner */
-    
-}.last-titulo {
-    position: absolute; /* determina a posição do texto h1 */
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font: 27px Lato, sans-serif;
-    padding: 20px;
-    font: 24px Lato, sans-serif;
-    margin: 19.92px 0px;
-    color: #DDDDDD;
     background: #111111;
+    padding: 20px;
+}
+section.module.conteiner.two { /*3*/
+    padding: 50px 80px;
+    margin: 16px 0px;
+}
+.two { /*4*/
+    text-align: center;
+    color: #666666;
+    font: 24px Lato, sans-serif;
+    padding: 19.92px 0px;
+}
+.twoparagraf { /*5*/
+    color: #666666;
+    font: 16px Lato, sans-serif;
+    margin: 16px 0px;
+    background: #F4F4F4;
+    text-align: center;
+}
+section.module.paralax-2 { 
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    width: 100%;
 }
 
