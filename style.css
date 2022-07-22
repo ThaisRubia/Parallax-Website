@@ -11,6 +11,7 @@ main {
 
 section.module.parallax { 
     display: flex;
+    column-gap: 15px;
     flex-direction: column; 
     justify-content: center; /*Precisa desses dois itens para centralizar na página*/
     align-items: center; /*Precisa desses dois itens para centralizar na página*/
@@ -25,6 +26,8 @@ section.module.parallax {
     -webkit-backdrop: cover;
     -moz-background-size:cover ;
     -o-background-size:cover;
+    
+    
 
 }
 .tituloOne {
@@ -34,6 +37,9 @@ section.module.parallax {
     padding: 20px;
     
     
+}
+.oneParagraf {
+    line-height: 150%;
 }
 .titulo {
     text-align: center;
@@ -49,6 +55,8 @@ section.module.conteiner {
     margin: 16px 0px;
     color: #666666;
     padding: 50px 80px;
+    
+    
     
 }
 
