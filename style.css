@@ -33,6 +33,7 @@ section.module.parallax {
     background: #111111;
     padding: 20px;
     
+    
 }
 .titulo {
     text-align: center;
@@ -41,27 +42,25 @@ section.module.parallax {
     margin: 19.92px 0px;
 
 }
-.oneParagraf {
-    padding: 10px 10px;
-}
+
 section.module.conteiner {
-    padding: 50px 80px;
+    text-align: center;
     font: 16px Lato,sans-serif;
+    margin: 16px 0px;
     color: #666666;
     padding: 50px 80px;
     
 }
+
 section.module.conteinerOne {
-    padding: 50px 80px;
+    text-align: center;
     font: 16px Lato,sans-serif;
     color: #FFFFFF;
     padding: 50px 80px;
     background: #282E34;
     
 }
-.oneParagraf {
-    padding: 15px;
-}
+
 .titulotwo {
     text-align: center;
     color: #FFFFFF;
@@ -69,7 +68,12 @@ section.module.conteinerOne {
     margin: 19.92px 0px;
     
 }
+.tituloTwo {
+    color: #FFFFFF;
+    font: 24px Lato, sans-serif;
+    margin: 19.92px 0px;
 
+}
 section.module.conteiner.two { /*3*/
     text-align: center;
     margin: 16px 0px;
@@ -82,21 +86,27 @@ section.module.conteiner.two { /*3*/
 section.module.parallax-1 {
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
     width: 100%;
+    filter: opacity(0.6) drop-shadow(0 0 0 grey); 
+    
 }
 
 section.module.parallax-2 { 
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
     width: 100%;
+    height: 500px;
+    filter: opacity(0.6) drop-shadow(0 0 0 grey); 
 }
 
 
 section.module.parallax-3 { 
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
     width: 100%;
+    filter: opacity(0.6) drop-shadow(0 0 0 grey); 
+    height: 500px;
 }
 
 section.module.parallax-4 { 
     background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
     width: 100%;
-    width: 100%;
+    filter: opacity(0.6) drop-shadow(0 0 0 grey); 
 }
